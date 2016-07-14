@@ -33,8 +33,3 @@ class RonanTest < Minitest::Test
   end
 
 end
-
-# A sinatra app with three endpoints (all just rendering text):
-# Index: GET "/", returns a welcome message
-# Show: GET "/billy", returns a specialized welcome message for whatever name is passed to it as a param
-# Lorem: GET "/lorem/standard", returns lorem ipsum of the type requested
